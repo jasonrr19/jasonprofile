@@ -1,0 +1,70 @@
+body {
+  background-color: azure;
+  font-family: 'Courier New', Courier, monospace;
+  color:black;
+  font-size: medium;
+  line-height: normal;
+}
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+h1, h2, h3 {
+  color: rgb(11, 102, 102);
+  font-family: cursive;
+  font-size: small;
+  line-height: normal;
+}
+.btn-purple {
+  color: brown;
+  text-decoration: solid;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  transition: 1s ease;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.btn-purple:hover {
+background-color: blueviolet;
+}
+.card {
+  background-color: darkgray;
+  border: 1px solid #EAEAEA;
+  border-radius: 5px;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  padding: 0px 20px;
+  text-align: center;
+  list-style: none;
+  width: 100%;
+  margin-bottom: 10px;
+}
+@media (max-width: 720px) {
+  .container {
+  width: 500px;
+  margin: 0 auto;
+  }
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  display: flex;
+  text-align: center;
+  margin: 0 auto;
+  width: 400px;
+  justify-content: space-between;
+  /* list-style: none;
+  padding-left: 0px; */
+}
+
+#profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
